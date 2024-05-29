@@ -8,7 +8,7 @@
 !/.yarn/releases
 !/.yarn/plugins
 !/.yarn/sdks
-
+/crt
 # testing
 /coverage
 
