@@ -16,4 +16,4 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
       - ./crt:/etc/nginx/certs
     ports:
-      - 4443:4443
+      - 3443:3443
