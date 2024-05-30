@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY package*.json .
 
-RUN npm install --legacy-peer-deps
+RUN npm install
 
 # Copy the rest of the source files into the image.
 COPY . .
